@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+}
+
+header h1 {
+    display: block;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+main {
+    margin-left: 240px; 
+    margin-bottom: 20px;    
+
+   
+}
+
+#input-texto{
+    resize: none;
+    width: 740px;
+    height: 500px;
+    background:  #F3F5FC;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    border: none;
+}
+
+#input-texto:focus{
+    outline: 0;
+}
+
+.entrada-texto img{
+    float: left;
+    margin-right: 5px;
+}
+
+.entrada-texto p{
+    color: #a89c9c;
+    font-family: 'Inter', sans-serif;
+}
+
+.botao-criptografar {
+    padding: 24px;
+    width: 328px;
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.botao-criptografar:hover {
+    cursor:pointer;
+    background: #30527b;
+    transition: 500ms;
+
+}
+
+
+.botao-descriptografar {
+    
+    padding: 24px;
+    width: 328px;
+    background: #D8DFE8;
+    border: none;
+    border-radius: 24px;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.botao-descriptografar:hover {
+    cursor:pointer;
+    background:  #afc6e4;
+    transition: 500ms;
+
+}
+
+.espaco-saida{
+    position: absolute;
+    width: 400px;
+    height: 670px;
+    left: 1040px;
+    top: 40px;
+    display: inline;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgb(0, 0, 0, 0.6);
+    border-radius: 32px;
+}
+
+.imagem-saida{
+    position: absolute;
+    top: -360px;
+}
+
+#espaco-aviso{
+    display: block;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 34px;
+    top: 440px;
+}
+
+.aviso-saida {
+    width: 336px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+}
+
+.descricao-aviso{
+    margin-top: 20px;
+    width: 336px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+}
+
+#espaco-resultado {
+    position: absolute;
+    display: none;
+    width: 400px;
+    height: 640px;
+    left: 33px;
+    top: 30px;
+    
+}
+
+#texto-criptografado {
+    width: 300px;
+    height: 500px;
+    background:  #FFFFFF;
+    resize: none;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-size: 20px;
+
+    color: #495057;
+
+    font-family: 'Inter', sans-serif;
+}
+
+#texto-criptografado:focus{
+    outline: 0;
+}
+
+.botao-copiar {
+    position: absolute;
+    left: 5px;
+    top: 545px;
+    padding: 24px;
+    width: 328px;
+    background: #D8DFE8;
+    border: none;
+    border-radius: 24px;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.botao-copiar:hover{
+    cursor: pointer;
+}
+
+
+/*CSS Rodapé*/
+
+footer {
+    background-color: #0A3871;
+    text-align: center;
+    
+
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+}
+
+footer a{
+    text-transform: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.texto-dev{
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.texto-desafio{
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*CSS MOBILE*/
+
+@media screen and (max-width: 480px) {
+
+    body{
+        width: 100%;
+    }
+
+    main{
+        margin-left: 5px;
+        margin-right: 0px;
+        
+    }
+
+    #input-texto{
+        width: 310px;
+        margin-left: 25px;
+        margin-left: 25px;
+        height: 365px;
+    }
+
+    .entrada-texto img {
+        margin-left: 10px;
+    }
+
+    .entrada-texto p{
+        width: auto;
+        font-size: 13px;
+    }
+
+    .botoes{
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .botao-criptografar{
+        margin-bottom: 0px;
+        width: 350px;
+        display: block;
+    }
+
+    .botao-descriptografar{
+        margin-top: 10px;
+        width: 350px;
+        display: block;
+    }
+
+    .espaco-saida{
+        position: static;
+        display: block;
+        width: 350px;
+        height: 216px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .aviso-saida{
+        width: 315px;
+    
+    }
+
+    .descricao-aviso{
+        width: 315px;
+    }
+
+    #espaco-resultado{
+        position: static;
+        width: auto;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    #texto-criptografado{
+        width: 315px;
+        height: 110px;
+    }
+
+    .botao-copiar{
+        position: static;
+        margin-top: 5px;
+        margin-left: 20px;
+        width: 310px;
+    }
+
+    #espaco-aviso{
+        position: static;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    #espaco-aviso img{
+        display: none;
+    }
+
+    footer{
+        width: auto;
+    }
+
+}
+
+/*CSS TABLET*/
+
+@media screen and (max-width: 768px) {
+
+    body{
+        width: 100%;
+    }
+
+    main{
+        margin-left: 5px;
+        margin-right: 0px;
+        
+    }
+
+    #input-texto{
+        width: 710px;
+        margin-left: 25px;
+        margin-left: 25px;
+        height: 365px;
+    }
+
+
+    .entrada-texto img {
+        margin-left: 10px;
+    }
+
+    .entrada-texto p{
+        width: auto;
+        font-size: 13px;
+    }
+
+    .botoes{
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .botao-criptografar{
+        margin-bottom: 0px;
+        width: 325px;
+        display: inline-block;
+    }
+
+    .botao-descriptografar{
+        margin-top: 10px;
+        width: 325px;
+        display: inline-block;
+    }
+
+    .espaco-saida{
+        position: static;
+        display: block;
+        width: 97%;
+        height: 216px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #espaco-aviso{
+        width: 100%;
+    }
+
+    .aviso-saida{
+        width: 100%;
+    
+    }
+
+    .descricao-aviso{
+        width: 100%;
+    }
+
+    #espaco-resultado{
+        position: static;
+        width: auto;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    #texto-criptografado{
+        width: 95%;
+        height: 100px;
+    }
+
+    .botao-copiar{
+        text-align: center;
+        position: static;
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    #espaco-aviso{
+        position: static;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    #espaco-aviso img{
+        display: none;
+    }
+
+    footer{
+        width: auto;
+    }
+
+}
+
